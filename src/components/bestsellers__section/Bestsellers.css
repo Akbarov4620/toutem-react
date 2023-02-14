@@ -1,0 +1,80 @@
+.bestsellers__section {
+  height: 700px;
+  padding-top: 185px;
+  /* background-image: url(/public/img/Vector\ \(1\).png); */
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: left 150px;
+}
+.bestsellers__section ul {
+  display: flex;
+  justify-content: right;
+  gap: 6px;
+  margin-top: 60px;
+  margin-right: 330px;
+}
+.bestsellers__section ul li {
+  margin: 0;
+}
+.bestsellers__section ul li .circle {
+  width: 8px;
+  height: 8px;
+  border: none;
+  border-radius: 50%;
+  background-color: #9ca3af;
+}
+.bestsellers__section ul li .green {
+  background-color: #5fd788;
+}
+.bestsellers__section-inner {
+  display: flex;
+  align-items: center;
+  gap: 190px;
+}
+.bestsellers__section-heading {
+  margin: 0;
+}
+.bestsellers__section-card {
+  display: flex;
+  gap: 15px;
+  position: relative;
+}
+.bestsellers__section-cards {
+  cursor: pointer;
+}
+.bestsellers__section-cards .card {
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(7.5px);
+  border-radius: 0px 20px;
+  position: absolute;
+  top: 300px;
+  padding: 13px 20px 10px;
+}
+.bestsellers__section-cards .card-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.bestsellers__section-cards .card-heading h4 {
+  font-size: 20px;
+  color: #1f2937;
+  margin: 0;
+}
+.bestsellers__section-cards .card-text {
+  display: flex;
+  gap: 60px;
+}
+.bestsellers__section-cards .card-text p {
+  color: #9ca3af;
+  width: 239px;
+  margin: 0;
+}
+
+.second {
+  background-image: none;
+  background-image: url(/public/img/Vector\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: 260px;
+  background-position: left 150px;
+}

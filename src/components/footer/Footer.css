@@ -1,0 +1,33 @@
+footer {
+  background-color: #f3f4f6;
+  margin-top: 71px;
+}
+footer .footer__section-inner {
+  display: flex;
+  padding: 30px 0;
+}
+footer .footer__section-inner h1 a {
+  color: #1f2937;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #1f2937;
+  font-weight: 600;
+}
+footer .footer__section .footer-list {
+  display: flex;
+  gap: 50px;
+  text-align: center;
+}
+footer .footer__section .footer-list nav h3 {
+  color: #5fd788;
+}
+footer .footer__section .footer-list nav ul li a {
+  color: #9ca3af;
+}
+footer .footer__section .footer-text {
+  color: #9ca3af;
+  width: 140px;
+  text-align: center;
+}

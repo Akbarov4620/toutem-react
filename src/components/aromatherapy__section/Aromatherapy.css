@@ -1,0 +1,26 @@
+.aromatherapy__section {
+  background-image: url(/public/img/Blob.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.aromatherapy__section-inner {
+  margin-top: 200px;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aromatherapy__section-text {
+  width: 570px;
+  margin: 0;
+  text-align: right;
+}
+.aromatherapy__section-text div {
+  padding-left: 160px;
+  margin-bottom: 24px;
+  color: #9ca3af;
+}
+.aromatherapy__section-text a {
+  margin-left: 292px;
+}

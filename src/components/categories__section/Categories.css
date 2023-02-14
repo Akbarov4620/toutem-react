@@ -1,0 +1,32 @@
+.categories__section-inner ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 260px;
+  }
+  .categories__section-inner ul li {
+    width: 273.9px;
+    height: 274px;
+    background: #F9FAFB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 20px;
+    padding: 67px 80px;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .categories__section-inner ul li a {
+    color: #5FD788;
+  }
+  .categories__section-inner ul li p {
+    color: #5FD788;
+  }
+  .categories__section-inner ul li:hover {
+    background-color: #5FD788;
+  }
+  .categories__section-inner ul li:hover a {
+    color: #F9FAFB;
+  }
+  .categories__section-inner ul li:hover p {
+    color: #F9FAFB;
+  }

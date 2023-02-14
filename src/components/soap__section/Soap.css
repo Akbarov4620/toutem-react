@@ -1,0 +1,26 @@
+.soap__section {
+  background-color: #5fd788;
+  width: 1440px;
+  height: 515px;
+  background-image: url(/public/img/Texture_2_.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.soap__section-inner {
+  display: flex;
+  gap: 100px;
+  position: relative;
+}
+.soap__section-heading {
+  width: 794px;
+  height: 515px;
+  padding: 112px 270px 100px 0px;
+  margin: 0;
+}
+.soap__section-heading h2 {
+  line-height: 119.4%;
+}
+.soap__section-img {
+  position: absolute;
+  left: 670px;
+}
